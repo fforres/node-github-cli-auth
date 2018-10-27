@@ -1,0 +1,16 @@
+_extends: .github
+
+repository:
+  name: node-github-cli-auth
+  description: Helper utility for cli authentication flow with GitHub
+  topics: github,cli,auth
+  homepage: https://github.com/ahmadnassri/node-github-cli-auth
+  private: false
+  has_issues: true
+  has_wiki: false
+  has_downloads: false
+  has_projects: false
+  default_branch: master
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: true

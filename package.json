@@ -1,0 +1,42 @@
+{
+  "private": false,
+  "version": "0.0.0-development",
+  "name": "@ahmadnassri/github-cli-auth",
+  "description": "Helper utility for cli authentication flow with GitHub",
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com)",
+  "homepage": "https://github.com/ahmadnassri/node-github-cli-auth",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadnassri/node-github-cli-auth.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "github",
+    "cli",
+    "auth"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/node-github-cli-auth/issues"
+  },
+  "scripts": {
+    "lint:deps": "npx updated",
+    "lint:ec": "npx editorconfig-checker .",
+    "lint:js": "npx eslint .",
+    "lint:md": "npx remark --quiet --frail .",
+    "lint": "npx run-p lint:*"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.15.1",
+    "inquirer": "^6.2.0",
+    "keytar": "^4.3.0",
+    "octokat": "^0.10.0"
+  }
+}
