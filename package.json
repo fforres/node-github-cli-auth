@@ -1,6 +1,6 @@
 {
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "@ahmadnassri/github-cli-auth",
   "description": "Helper utility for cli authentication flow with GitHub",
   "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com)",
