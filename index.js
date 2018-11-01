@@ -54,7 +54,6 @@ module.exports = function (name = `${pkg.name}@${pkg.version}`) {
         }))
       }
 
-      console.log(password, token)
       // set authentication mode to basic auth
       client.authenticate({ type: 'basic', username, password });
 
