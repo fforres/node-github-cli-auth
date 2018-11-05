@@ -42,7 +42,8 @@ module.exports = function (name = `${pkg.name}@${pkg.version}`) {
     let secret = await chain.get(username)
 
     // parse secret
-    let { password, token } = JSON.parse(secret) || {}
+    let { password, token } = JSON.parse(secret || null) || {}
+
     if (!token) {
       if (!password) {
         // ask for password
@@ -62,6 +63,7 @@ module.exports = function (name = `${pkg.name}@${pkg.version}`) {
 
       // securely store for later usage
       const secret = { token }
+
       if (remember.password) secret.password = password
 
       // securely store for later usage
