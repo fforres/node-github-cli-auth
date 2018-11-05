@@ -25,6 +25,10 @@ npm install @ahmadnassri/github-cli-auth
 > - Red Hat-based: `sudo yum install libsecret-devel`
 > - Arch Linux: `sudo pacman -S libsecret`
 
+## CLI Flag
+
+passing `--no-store` in the CLI of parent app, will automatically skip using the keychain
+
 ## API
 
 ### Method : `_(namespace)`
