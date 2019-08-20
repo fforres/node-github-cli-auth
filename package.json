@@ -34,9 +34,10 @@
     "lint": "npx run-p lint:*"
   },
   "dependencies": {
-    "@octokit/rest": "^16.0.0",
-    "inquirer": "^6.2.0",
-    "keytar": "^4.3.0",
+    "@octokit/rest": "^16.28.7",
+    "inquirer": "^6.5.1",
+    "keytar": "^5.0.0-beta.0",
+    "lodash": "^4.17.15",
     "octokat": "^0.10.0"
   }
 }
